@@ -111,8 +111,8 @@ class Connection:
 
 if __name__ == '__main__':
     # ENTER THE USERNAME AND PASSWORD
-    username = 'parvfecto_mundo'
-    password = 'Parv7402'
+    username = ''
+    password = ''
     bot = Connection(username, password)
     chrome = bot.driver
     bot.save_info_screen()
